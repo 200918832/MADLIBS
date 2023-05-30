@@ -11,6 +11,7 @@ public class MainActivity extends AppCompatActivity {
     private EditText etAdjective;
     private EditText etNoun;
     private EditText etVerb;
+
     private Button btnGenerate;
 
 
