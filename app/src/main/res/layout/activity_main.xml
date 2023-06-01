@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".RafaelMainActivity">
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline2"
@@ -30,11 +30,11 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/tv_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="TITLE"
+            android:text="MADLIBS"
             android:textSize="26sp" />
 
         <TextView
@@ -79,7 +79,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="color"
-            android:text="text" />
+            android:inputType="text" />
 
         <EditText
             android:id="@+id/et_Shape"
@@ -87,34 +87,34 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="shape"
-            android:text="shape" />
+            android:inputType="text" />
 
         <EditText
-            android:id="@+id/et_"
+            android:id="@+id/et_Location"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="text"
-            android:text="Name" />
+            android:hint="location"
+            android:inputType="text" />
 
         <EditText
-            android:id="@+id/editTextText4"
+            android:id="@+id/et_Food"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="text"
-            android:text="Name" />
+            android:hint="food"
+            android:inputType="text" />
 
         <EditText
-            android:id="@+id/editTextText5"
+            android:id="@+id/et_Friend"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="text"
-            android:text="Name" />
+            android:hint="friend"
+            android:inputType="text" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/btn_generate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Button" />
